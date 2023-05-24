@@ -9,7 +9,7 @@ import { Registro } from 'src/app/Modulos/modelos/registro';
 @Component({
   selector: 'app-registro',
   templateUrl: './registro.component.html',
-  styleUrls: ['./registro.component.sass']
+  styleUrls: ['./registro.component.css']
 })
 export class RegistroComponent implements OnInit {
   public registro:Registro = new Registro
