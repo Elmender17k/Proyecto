@@ -1,0 +1,12 @@
+<form #formulario="ngForm" (ngSubmit)="iniciarSesion(formulario.value)">
+  <div class="form-group">
+    <label for="usuario">Nombre de usuario</label>
+    <input type="text" name="usuario" id="usuario" ngModel class="form-control" placeholder="Nombre de usuario">
+  </div>
+  <div class="form-group">
+    <label for="contrasena">Contraseña</label>
+    <input type="password" name="contrasena" id="contrasena" ngModel class="form-control" placeholder="Contraseña">
+  </div>
+  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+</form>
+

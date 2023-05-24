@@ -1,0 +1,28 @@
+<div>
+  <h1>items</h1>
+</div>
+
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+      <div class="card text-bg-primary mb-3" *ngFor="let item of items" style="max-width: 18rem;">
+        <div class="card-header" >{{item.titulo}}</div>
+        <div class="card text-bg-primary ">
+          <button type="button" class="btn btn-primary"(click)="LLenar(item)"  >Llenar item</button>
+        </div>
+        
+        </div >
+        </div>
+        <div>
+       <button type="button" [routerLink]="'agregar'" class="btn btn-primary" [disabled]="detalles.item && !detalles.guardado">Agregar item</button>
+
+        </div>
+       </div>
+       <div class="mb-3" *ngIf="detalles.item">
+        <h3>Item: {{detalles.item}}</h3>
+         <label for="" class="form-label"></label>
+         <textarea class="form-control"rows="3"  [(ngModel)]="detalles.detalles" ></textarea>
+         <button type="submit"  (click)="OnSave()"class="btn btn-primary " [disabled]="!detalles.item">Guardar</button>
+        </div>
+
+ 
+ 
