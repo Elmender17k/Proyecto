@@ -1,6 +1,6 @@
-import { RegistroService } from '../servicios/registro.service';
+import { RegistroService } from '../../servicios/registro.service';
 import { Component, OnInit } from '@angular/core';
-import { Registro } from '../modelos/registro';
+import { Registro } from '../../modelos/registro';
 import { Router } from '@angular/router';
 
 @Component({

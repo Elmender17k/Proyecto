@@ -1,0 +1,16 @@
+<h2>Ingrese su nuevo Anteproyecto</h2>
+<div class="mb-3">
+  <label for="" class="form-label">Anteproyecto</label>
+  <input type="text"
+    class="form-control" [(ngModel)]="registro.titulo">
+</div>
+<div class="mb-3">
+    <label for="" class="form-label">Descripcion</label>
+    <input type="text"
+    class="form-control" [(ngModel)]="registro.descripcion">
+  </div>
+  
+
+  <div class="d-grid gap-2">
+    <button type="button" (click)="onSave()" class="btn btn-primary">Guardar</button>
+  </div>

@@ -1,9 +1,9 @@
-import { DetallesService } from './../servicios/detalles.service';
+import { DetallesService } from '../../servicios/detalles.service';
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { ItemService } from '../servicios/item.service';
-import { Items } from '../modelos/item';
-import { Detalles } from '../modelos/detalles';
+import { ItemService } from '../../servicios/item.service';
+import { Items } from '../../modelos/item';
+import { Detalles } from '../../modelos/detalles';
 
 @Component({
   selector: 'app-item',

@@ -1,8 +1,8 @@
-import { DetallesService } from './../servicios/detalles.service';
-import { Items } from './../modelos/item';
-import { ItemService } from "../servicios/item.service";
+import { DetallesService } from '../../servicios/detalles.service';
+import { Items } from '../../modelos/item';
+import { ItemService } from "../../servicios/item.service";
 import { Component, OnInit } from '@angular/core';
-import { Detalles } from '../modelos/detalles';
+import { Detalles } from '../../modelos/detalles';
 
 @Component({
   selector: 'app-items',
