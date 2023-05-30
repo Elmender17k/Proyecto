@@ -1,11 +1,41 @@
 {
   "titulo": [
-    
+    {
+      "titulo": "Descripción del tema ",
+      "id": 1
+    },
+    {
+      "titulo": "EL Mejor",
+      "id": 2
+    },
+    {
+      "titulo": "Descripción del tema ",
+      "id": 3
+    }
   ],
   "detalle": [
-   
+    {
+      "item": "Descripción del tema ",
+      "detalles": "cdcdcdcdc",
+      "id": 1
+    },
+    {
+      "item": "Descripción del tema ",
+      "detalles": "hthththththth",
+      "id": 2
+    }
   ],
   "registro": [
-    
+    {
+      "titulo": "dddd",
+      "descripcion": "dddd",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
   ]
 }
